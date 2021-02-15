@@ -2,6 +2,13 @@ import java.util.Scanner;
 
 
 public class q5 {
+	
+	/*
+	 * Logic -
+	 * TO show the other diagonal of a Matrix we find the relation that 4-j-1 == i is the indices of the element
+	 * then we next a dual loop with one going through the rows of the mat and the nested one on the columns
+	 * when ever the above condition is true we display the element thus getting the desired output
+	 */
 
 	public static void main(String[] args) {
 		
