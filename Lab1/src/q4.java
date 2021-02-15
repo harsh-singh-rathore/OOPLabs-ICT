@@ -3,6 +3,14 @@ import java.lang.Math;
 import java.util.Arrays;
 
 public class q4 {
+	
+	/*
+	 * Logic -
+	 * Take in the input the array and the number to be searched 
+	 * perform linear searching using the for each loop
+	 * also have a counter variable in hand which will count and display the position of the number where
+	 * the search key is found
+	 */
 
 	static void search(int[] arr, int s) {
 		boolean found = false;
@@ -11,7 +19,7 @@ public class q4 {
 		for(int ele : arr) {
 			
 			if(ele == s) {
-				System.out.print( pos + ",");
+				System.out.print("a["+ pos + "],");
 				found = true;
 			}
 			pos = pos + 1;
